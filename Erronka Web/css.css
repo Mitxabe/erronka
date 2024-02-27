@@ -1,0 +1,433 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: justify;
+}
+
+#logomain {
+    width: 17vw;
+    float: left;
+    position:absolute;
+}
+
+#burue {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vw;
+    border:solid 1px black;
+    background-color: #1A120B;
+    color: white;
+}
+
+
+/*Transizioa navbar*/
+
+@media screen and (max-width: 700px) {
+#normala{
+    display: none;
+}
+
+}
+@media screen and (min-width: 700px) {
+#txikie{
+    display: none;
+}
+#textue{
+    margin-right: 22%;
+}
+}
+
+/*Navbar*/
+
+/*Dropdown*/
+.dropdown {
+    float: left;
+    position: relative;
+    padding-left: 4%;
+    width: 5%;
+    padding-top: 4%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10%;
+    z-index: 1;
+    background-color: #9E9FA5;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-size: 2vw;
+    text-decoration: none;
+    display: block;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#Irudie1 {
+    width: 100%;
+}
+
+/*Navbar normal*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    border-radius:0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    float: none;
+    width: 100px;
+    padding: 25px 20px;
+}
+
+/*zentratzeko*/
+
+#ezker {
+    transform: translate(-50%, -50%);
+    left: 75%;
+    float: none;
+    position: absolute;
+}
+
+#esku {
+    transform: translate(-50%, -50%);
+    left: 25%;
+    float: none;
+    position: absolute;
+}
+
+#erdin1 {
+    transform: translate(-50%, -50%);
+    left: 60%;
+    float: none;
+    position: absolute;
+}
+
+#erdin2 {
+    transform: translate(-50%, -50%);
+    left: 40%;
+    float: none;
+    position: absolute;
+}
+
+/*Kontenidoa*/
+
+/*textua*/
+
+#textua{
+    width: 75%;
+    font-size:0.9vw;
+    /* font minimun size */
+    font-size:calc(1px + 1.1vw);
+    float:left;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*irudie*/
+
+#irudie2 {
+    width: 160%;
+    float: right;
+}
+
+
+/*Irudiko komentarioa*/
+.tooltip {
+    position: relative;
+    float: right;    
+    width: 60%;
+    
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 45%;
+    background-color: black;
+    margin-left: -60%;
+    color: #E5E5CB;
+    text-align: center;
+    padding: 5%;
+    border-bottom-right-radius: 25px;
+    position: absolute;
+    display: inline-block;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*slider*/
+.container {
+    padding: 2rem;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    /*erdizka ez geitzeko*/
+    scroll-snap-type: x mandatory;
+    /*transizio xuabea*/
+    scroll-behavior: smooth;
+    border-radius:0.5rem;
+}
+
+/*irudiari tamaina egokitzeko*/
+.slider img {
+    flex: 1 0 100%;
+    object-fit: cover;
+}
+
+/*sliderreko botoiak*/
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position:absolute;
+    bottom: 1.26rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.50;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+/*inbentario botoia*/
+#Inbentario_botoia {
+    padding: 2.5%;
+    background-color: #1A120B;
+    border-radius: 10px;
+    width: fit-content;
+    margin:auto;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+/*Eskubikoa*/
+
+#eskubikoa {
+    float: right;
+    background-color: #1A120B;
+    width: 15%;
+    margin: 2%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+/*eskubiko irudik*/
+#irudixe {
+    width: 50%;
+    margin: 25%;
+}
+
+/*footer*/
+
+/*handie*/
+#ankakoa {
+    float: left;
+    font-size: 1.8vw;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    margin-top: 2%;
+    color: #E5E5CB;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-bottom: 2%;
+}
+
+#ikonoak {
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+.ikono-euskaldunak {
+    width: 3%;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#linkedin-irudie {
+    width: 3%;
+}
+
+/*txikie*/
+
+#ankakixe {
+    float: left;
+    font-size: 1.8vw;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    margin-top: 2%;
+    color: #E5E5CB;
+    padding-bottom: 5%;
+    display: none;
+}
+
+.ikono-euskaldunak1 {
+    width: 5%;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 100%;
+}
+
+/*Footer transizioa*/
+
+@media screen and (max-width: 700px) {
+    #ankakoa  {
+        display: none;
+    }
+    #ankakixe {
+        display: block;
+    }
+    #textua {
+        width: 70%;
+    }
+    #eskubikoa {
+        border-radius: 2px ;
+    }
+}
+
+/*Denda*/
+
+#produktuak {
+    margin: auto;
+    margin: auto;
+    width: 50%;
+}
+
+#produktua1 {
+    float: left;
+    margin: 5%;
+    text-align: center;
+}
+
+#irudie3 {
+    width: 20%;
+}
+
+
+/*Inbentario*/
+
+#box1 {
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    padding: 1%;
+    font-weight: bold;
+    text-decoration:underline;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1%;
+    width: 90%;
+}
+
+#box2 {
+    margin: auto;
+    margin-top: 1%;
+    width: 90%;
+    padding: 1%;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    font-size: 1.1vw;
+    border-radius: 10px;
+}
+
+#pckonponenteak {
+    width: 30%;
+    height: 30%;
+}
+
+#titulue {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vw;
+    border:solid 1px black;
+    background-color: #1A120B;
+    color: white;
+    margin-top: 50px;
+}
+
+
+#dropdowninbentario {
+    margin-top: -1%;
+    background-color: white;
+    padding: 3.2%;
+}
+
+#gorabotoia {
+    background-color: gray;
+    opacity: .4;
+    padding: 1%;
+    border-radius: 10px;
+    width: 5%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin-left: 89%;
+}
+
+#gezia{
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}

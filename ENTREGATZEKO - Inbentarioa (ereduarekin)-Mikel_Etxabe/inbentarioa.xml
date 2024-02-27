@@ -1,0 +1,851 @@
+<?xml version='1.0'?>
+<!DOCTYPE inbentarioa SYSTEM "./inbentarioa.dtd">
+<?xml-stylesheet type="text/xsl" href="./inbentarioa.xsl"?>
+<inbentarioa>
+    <!--Ordenagailua-->
+    <ordenagailua pckodea="pc01" inpri_lotura="inpri01" switch_lotura="switch01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i3
+        </CPU>
+        <Sistemaeragilea>
+            Windows 11
+        </Sistemaeragilea>
+        <Diskogogorra>
+            256GB PCIe M.2 NVMe
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            Dell Outlet Inspiron 3891 Desktop
+        </Modeloa>
+        <Urtea>
+            2012
+        </Urtea>
+        <Rammemoria>
+            8GB 3200MHz DDR4 UDIMM Non-ECC
+        </Rammemoria>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc02" inpri_lotura="inpri01" switch_lotura="switch01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i3
+        </CPU>
+        <Sistemaeragilea>
+            Windows 11
+        </Sistemaeragilea>
+        <Diskogogorra>
+            256GB PCIe M.2 NVMe
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            Dell Outlet Inspiron 3891 Desktop
+        </Modeloa>
+        <Urtea>
+            2012
+        </Urtea>
+        <Rammemoria>
+            4GB 3200MHz DDR4 UDIMM Non-ECC
+        </Rammemoria>
+        <Rammemoria2>
+            4GB 3200MHz DDR4 UDIMM Non-ECC
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc03" inpri_lotura="inpri01" switch_lotura="switch01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel I3-7100
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            Dell OptiPlex 3050 AIO
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB
+        </Rammemoria>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc04" inpri_lotura="inpri01" switch_lotura="switch01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel I3-7100
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            Dell OptiPlex 3050 AIO
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB
+        </Rammemoria>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc05" inpri_lotura="inpri01" switch_lotura="switch01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel I3-7100
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            Dell OptiPlex 3050 AIO
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB
+        </Rammemoria>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc06" inpri_lotura="inpri02" switch_lotura="switch01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc07" inpri_lotura="inpri02" switch_lotura="switch01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc08" inpri_lotura="inpri02" switch_lotura="switch02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc09" inpri_lotura="inpri02" switch_lotura="switch02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc10" inpri_lotura="inpri02" switch_lotura="switch02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc11" inpri_lotura="inpri03" switch_lotura="switch02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc12" inpri_lotura="inpri03" switch_lotura="switch02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc13" inpri_lotura="inpri03" switch_lotura="switch02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc14" inpri_lotura="inpri03" switch_lotura="switch02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <ordenagailua pckodea="pc15" inpri_lotura="inpri03" switch_lotura="switch02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <CPU>
+            Intel Core i5
+        </CPU>
+        <Sistemaeragilea>
+            Windows 10 Professional
+        </Sistemaeragilea>
+        <Diskogogorra>
+            500GB HDD
+        </Diskogogorra>
+        <Txartelgrafikoa>
+            Integratua
+        </Txartelgrafikoa>
+        <Modeloa>
+            HP Compaq Elite 8300 MT
+        </Modeloa>
+        <Urtea>
+            2018
+        </Urtea>
+        <Rammemoria>
+            4GB DDR3
+        </Rammemoria>
+        <Rammemoria2>
+            4GB DDR3
+        </Rammemoria2>
+        <pc_irudia path="./irudiak/pckomponenteak.png"/>
+    </ordenagailua>
+
+    <!--Portatillak-->
+    <portatilla port_kodea="port01" nunerosi="Mediamarkt" noizerosi="2024/06/13" >
+        <p_modeloa>
+            DELL LATITUDE 5450    
+        </p_modeloa>
+        <p_cpu>
+            INTEL CORE I5 2.3GHZ 
+        </p_cpu>
+        <p_urtea>
+            2015
+        </p_urtea>
+        <p_rammemoria>
+            4GBRAM
+        </p_rammemoria>
+        <p_diskogogorra>
+            500HDD
+        </p_diskogogorra>
+        <bateria>
+            40/80%
+        </bateria>
+        <p_sistemaeragilea>
+            W10
+        </p_sistemaeragilea>
+        <p_irudia path="./irudiak/portatilla.jpg"/>
+    </portatilla>
+    
+    <portatilla port_kodea="port02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <p_modeloa>
+            DELL LATITUDE 5450    
+        </p_modeloa>
+        <p_cpu>
+            INTEL CORE I5 2.3GHZ 
+        </p_cpu>
+        <p_urtea>
+            2015
+        </p_urtea>
+        <p_rammemoria>
+            4GBRAM
+        </p_rammemoria>
+        <p_diskogogorra>
+            500HDD
+        </p_diskogogorra>
+        <bateria>
+            40/80%
+        </bateria>
+        <p_sistemaeragilea>
+            W10
+        </p_sistemaeragilea>
+        <p_irudia path="./irudiak/portatilla.jpg"/>
+    </portatilla>
+
+    <portatilla port_kodea="port03" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <p_modeloa>
+            DELL LATITUDE 5450    
+        </p_modeloa>
+        <p_cpu>
+            INTEL CORE I5 2.3GHZ 
+        </p_cpu>
+        <p_urtea>
+            2015
+        </p_urtea>
+        <p_rammemoria>
+            4GBRAM
+        </p_rammemoria>
+        <p_diskogogorra>
+            500HDD
+        </p_diskogogorra>
+        <bateria>
+            40/80%
+        </bateria>
+        <p_sistemaeragilea>
+            W10
+        </p_sistemaeragilea>
+        <p_irudia path="./irudiak/portatilla.jpg"/>
+    </portatilla>
+
+    <portatilla port_kodea="port04" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <p_modeloa>
+            DELL LATITUDE 5450    
+        </p_modeloa>
+        <p_cpu>
+            INTEL CORE I5 2.3GHZ 
+        </p_cpu>
+        <p_urtea>
+            2015
+        </p_urtea>
+        <p_rammemoria>
+            4GBRAM
+        </p_rammemoria>
+        <p_diskogogorra>
+            500HDD
+        </p_diskogogorra>
+        <bateria>
+            40/80%
+        </bateria>
+        <p_sistemaeragilea>
+            W10
+        </p_sistemaeragilea>
+        <p_irudia path="./irudiak/portatilla.jpg"/>
+    </portatilla>
+
+    <portatilla port_kodea="port05" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <p_modeloa>
+            DELL LATITUDE 5450    
+        </p_modeloa>
+        <p_cpu>
+            INTEL CORE I5 2.3GHZ 
+        </p_cpu>
+        <p_urtea>
+            2015
+        </p_urtea>
+        <p_rammemoria>
+            4GBRAM
+        </p_rammemoria>
+        <p_diskogogorra>
+            500HDD
+        </p_diskogogorra>
+        <bateria>
+            40/80%
+        </bateria>
+        <p_sistemaeragilea>
+            W10
+        </p_sistemaeragilea>
+        <p_irudia path="./irudiak/portatilla.jpg"/>
+    </portatilla>
+
+
+    <!--Zerbitzariak-->
+    <zerbitzaria zerb_kodea="zerb01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+        <z_modeloa>
+            HP ProLiant DL380 G7 Server 2X
+        </z_modeloa>
+        <z_cpu>
+            Procesadores- 2 x 3 06 GHz X5675 Xeon 6 núcleos
+        </z_cpu>
+        <z_rammemoria>
+            8x4 GB (32 GB en total)
+        </z_rammemoria>
+        <z_diskogogorra>
+            EZ
+        </z_diskogogorra>
+        <z_sareinterfazeak>
+            4 x Gigabit Ethernet
+        </z_sareinterfazeak>
+        <z_urtea>
+            2020
+        </z_urtea>
+        <ip_helbidea>
+            192.168.1.1
+        </ip_helbidea>
+        <z_irudia path="./irudiak/server.jpg"/>
+    </zerbitzaria>
+
+    <!--Periferikoak-->
+    <periferikoak>
+        <arbeldigitala arbel_kodea="arbel01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <arbel_modeloa>
+                Panel interactivo Newline TT-6519RS táctil 4K de 65"
+            </arbel_modeloa>
+            <arbel_prezioa>
+                450€
+            </arbel_prezioa>
+            <arbel_irudia path="./irudiak/arbeldigitala.jpg"/>
+        </arbeldigitala>
+
+        <proiektorea proiek_kodea="proiek01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <proiektore_prezioa>
+                350€
+            </proiektore_prezioa>
+            <proiektore_modeloa>
+                Proyector BenQ LX710 láser de largo alcance
+            </proiektore_modeloa>
+            <proiektore_irudia path="./irudiak/proiektorea.jpeg"/>
+        </proiektorea>
+        <proiektorea proiek_kodea="proiek02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <proiektore_prezioa>
+                350€
+            </proiektore_prezioa>
+            <proiektore_modeloa>
+                Proyector BenQ LX710 láser de largo alcance
+            </proiektore_modeloa>
+            <proiektore_irudia path="./irudiak/proiektorea.jpeg"/>
+        </proiektorea>
+
+        <pantaila pclotura="pc01" pant_kodea="pant01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                19
+            </pulgadak>
+            <pantaila_modeloa>
+                HP L1908W
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                260€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/hpl1908.jpg"/>
+        </pantaila>
+        <pantaila pclotura="pc02" pant_kodea="pant02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                24
+            </pulgadak>
+            <pantaila_modeloa>
+                DELL 2723H
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                430€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/delle2723H.jpeg"/>
+        </pantaila>
+        <pantaila pclotura="pc03" pant_kodea="pant03" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                24
+            </pulgadak>
+            <pantaila_modeloa>
+                DELL 2723H
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                430€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/delle2723H.jpeg"/>
+        </pantaila>
+        <pantaila pclotura="pc04" pant_kodea="pant04" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                24
+            </pulgadak>
+            <pantaila_modeloa>
+                DELL 2723H
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                430€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/delle2723H.jpeg"/>
+        </pantaila>
+        <pantaila pclotura="pc05" pant_kodea="pant05" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                24
+            </pulgadak>
+            <pantaila_modeloa>
+                DELL 2723H
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                430€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/delle2723H.jpeg"/>
+        </pantaila>
+        <pantaila pclotura="pc06" pant_kodea="pant06" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                19
+            </pulgadak>
+            <pantaila_modeloa>
+                HP L1908W
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                260€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/hpl1908.jpg"/>
+        </pantaila>
+        <pantaila pclotura="pc07" pant_kodea="pant07" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                19
+            </pulgadak>
+            <pantaila_modeloa>
+                HP L1908W
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                260€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/hpl1908.jpg"/>
+        </pantaila>
+        <pantaila pclotura="pc08" pant_kodea="pant08" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                19
+            </pulgadak>
+            <pantaila_modeloa>
+                HP L1908W
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                260€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/hpl1908.jpg"/>
+        </pantaila>
+        <pantaila pclotura="pc09" pant_kodea="pant09" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                19
+            </pulgadak>
+            <pantaila_modeloa>
+                HP L1908W
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                260€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/hpl1908.jpg"/>
+        </pantaila>
+        <pantaila pclotura="pc10" pant_kodea="pant10" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                19
+            </pulgadak>
+            <pantaila_modeloa>
+                HP L1908W
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                260€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/hpl1908.jpg"/>
+        </pantaila>
+        <pantaila pclotura="pc11" pant_kodea="pant11" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                19
+            </pulgadak>
+            <pantaila_modeloa>
+                HP L1908W
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                260€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/hpl1908.jpg"/>
+        </pantaila>
+        <pantaila pclotura="pc12" pant_kodea="pant12" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                19
+            </pulgadak>
+            <pantaila_modeloa>
+                HP L1908W
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                260€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/hpl1908.jpg"/>
+        </pantaila>
+        <pantaila pclotura="pc13" pant_kodea="pant13" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <pulgadak>
+                19
+            </pulgadak>
+            <pantaila_modeloa>
+                HP L1908W
+            </pantaila_modeloa>
+            <pantaila_prezioa>
+                260€
+            </pantaila_prezioa>
+            <irudia path="./irudiak/hpl1908.jpg"/>
+        </pantaila>
+
+        <inprimagailua inpri_kodea="inpri01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <inprimagailua_urtea>
+                2019
+            </inprimagailua_urtea>
+            <inprimagailua_modeloa>
+                Brother HL-L2350DW
+            </inprimagailua_modeloa>
+            <inprimagailua_prezioa>
+                118€
+            </inprimagailua_prezioa>
+            <inprimagailua_irudia path="./irudiak/BROTHER.jpg"/>
+        </inprimagailua>
+        <inprimagailua inpri_kodea="inpri02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <inprimagailua_urtea>
+                2019
+            </inprimagailua_urtea>
+            <inprimagailua_modeloa>
+                Brother HL-L2350DW
+            </inprimagailua_modeloa>
+            <inprimagailua_prezioa>
+                118€
+            </inprimagailua_prezioa>
+            <inprimagailua_irudia path="./irudiak/HPinpresora.jpg"/>
+        </inprimagailua>
+        <inprimagailua inpri_kodea="inpri03" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <inprimagailua_urtea>
+                2021
+            </inprimagailua_urtea>
+            <inprimagailua_modeloa>
+                HP LaserJet Pro M15w
+            </inprimagailua_modeloa>
+            <inprimagailua_prezioa>
+                161€
+            </inprimagailua_prezioa>
+            <inprimagailua_irudia path="./irudiak/HPinpresora.jpg"/>
+        </inprimagailua>
+    </periferikoak>
+
+    <!--Sare ekipamemdua-->
+    <sareekipamendua>
+        <switch switch_kodea="switch01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <switch_modeloa>
+                Switch Ethernet D-Link
+            </switch_modeloa>
+            <switch_portuak>
+                9
+            </switch_portuak>
+            <switch_prezioa>
+                1500€
+            </switch_prezioa>
+            <switch_irudia path="./irudiak/switch.jpg"/>
+        </switch>
+        <switch switch_kodea="switch02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <switch_modeloa>
+                Switch Ethernet D-Link
+            </switch_modeloa>
+            <switch_portuak>
+                9
+            </switch_portuak>
+            <switch_prezioa>
+                1500€
+            </switch_prezioa>
+            <switch_irudia path="./irudiak/switch.jpg"/>
+        </switch>
+
+        <bideratzailea bidera_kodea="bidera01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <bideratzailea_modeloa>
+                Linksys Enrutador WiFi 5
+            </bideratzailea_modeloa>
+            <bideratzailea_estandarra>
+                AC1200
+            </bideratzailea_estandarra>
+            <bideratzailea_prezioa>
+                500€
+            </bideratzailea_prezioa>
+            <bideratzailea_irudia path="./irudiak/bideratzailea.jpg"/>
+        </bideratzailea>
+        <ipkamera ipkam_kodea="ipkam01" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <ipkamera_modeloa>
+                TP.Link Tapo C200
+            </ipkamera_modeloa>
+            <ipkamera_prezioa>
+                360€
+            </ipkamera_prezioa>
+            <ipkamera_irudia path="./irudiak/ipkamera.jpg"/>
+        </ipkamera>
+        <ipkamera ipkam_kodea="ipkam02" nunerosi="Mediamarkt" noizerosi="2024/06/13">
+            <ipkamera_modeloa>
+                TP.Link Tapo C200
+            </ipkamera_modeloa>
+            <ipkamera_prezioa>
+                360€
+            </ipkamera_prezioa>
+            <ipkamera_irudia path="./irudiak/ipkamera.jpg"/>
+        </ipkamera>
+    </sareekipamendua>
+</inbentarioa>

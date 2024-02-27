@@ -1,0 +1,139 @@
+<!ELEMENT inbentarioa (ordenagailua+,portatilla+,zerbitzaria+,periferikoak,sareekipamendua)>
+
+<!-- Ordenagailua -->
+<!ELEMENT ordenagailua (CPU,Sistemaeragilea,Diskogogorra,Txartelgrafikoa,Modeloa,Urtea,Rammemoria,Rammemoria2*,pc_irudia)>
+<!ELEMENT CPU (#PCDATA)>
+<!ELEMENT Sistemaeragilea (#PCDATA)>
+<!ELEMENT Diskogogorra (#PCDATA)>
+<!ELEMENT Txartelgrafikoa (#PCDATA)>
+<!ELEMENT Modeloa (#PCDATA)>
+<!ELEMENT Urtea (#PCDATA)>
+<!ELEMENT Rammemoria (#PCDATA)>
+<!ELEMENT Rammemoria2 (#PCDATA)>
+<!ELEMENT pc_irudia (#PCDATA)>
+
+<!ATTLIST ordenagailua nunerosi CDATA #REQUIRED>
+<!ATTLIST ordenagailua noizerosi CDATA #REQUIRED>
+<!ATTLIST ordenagailua pckodea ID #REQUIRED>
+<!ATTLIST ordenagailua inpri_lotura IDREF #REQUIRED>
+<!ATTLIST ordenagailua switch_lotura IDREF #REQUIRED>
+<!ATTLIST pc_irudia path CDATA #REQUIRED>
+
+<!-- Portatilla -->
+<!ELEMENT portatilla (p_modeloa,p_cpu,p_urtea,p_rammemoria,p_diskogogorra,bateria,p_sistemaeragilea,p_irudia)>
+<!ELEMENT p_modeloa (#PCDATA)>
+<!ELEMENT p_cpu (#PCDATA)>
+<!ELEMENT p_urtea (#PCDATA)>
+<!ELEMENT p_rammemoria (#PCDATA)>
+<!ELEMENT p_diskogogorra (#PCDATA)>
+<!ELEMENT bateria (#PCDATA)>
+<!ELEMENT p_sistemaeragilea (#PCDATA)>
+<!ELEMENT p_irudia (#PCDATA)>
+
+<!ATTLIST portatilla nunerosi CDATA #REQUIRED>
+<!ATTLIST portatilla noizerosi CDATA #REQUIRED>
+<!ATTLIST portatilla port_kodea ID #REQUIRED>
+<!ATTLIST p_irudia path CDATA #REQUIRED>
+
+<!-- Zerbitzaria -->
+<!ELEMENT zerbitzaria (z_modeloa,z_cpu,z_rammemoria,z_diskogogorra,z_sareinterfazeak,z_urtea,ip_helbidea,z_irudia)>
+<!ELEMENT z_modeloa (#PCDATA)>
+<!ELEMENT z_cpu (#PCDATA)>
+<!ELEMENT z_rammemoria (#PCDATA)>
+<!ELEMENT z_diskogogorra (#PCDATA)>
+<!ELEMENT z_sareinterfazeak (#PCDATA)>
+<!ELEMENT z_urtea (#PCDATA)>
+<!ELEMENT ip_helbidea (#PCDATA)>
+<!ELEMENT z_irudia (#PCDATA)>
+
+<!ATTLIST zerbitzaria nunerosi CDATA #REQUIRED>
+<!ATTLIST zerbitzaria noizerosi CDATA #REQUIRED>
+<!ATTLIST zerbitzaria zerb_kodea ID #REQUIRED>
+<!ATTLIST z_irudia path CDATA #REQUIRED>
+
+<!-- Periferikoak -->
+<!ELEMENT periferikoak (arbeldigitala,proiektorea+,pantaila+,inprimagailua+)>
+<!--Arbel Digitala-->
+<!ELEMENT arbeldigitala (arbel_modeloa,arbel_prezioa,arbel_irudia)>
+<!ELEMENT arbel_modeloa (#PCDATA)>
+<!ELEMENT arbel_prezioa (#PCDATA)>
+<!ELEMENT arbel_irudia (#PCDATA)>
+
+<!ATTLIST arbeldigitala nunerosi CDATA #REQUIRED>
+<!ATTLIST arbeldigitala noizerosi CDATA #REQUIRED>
+<!ATTLIST arbeldigitala arbel_kodea ID #REQUIRED>
+<!ATTLIST arbel_irudia path CDATA #REQUIRED>
+
+<!--Proiektorea-->
+<!ELEMENT proiektorea (proiektore_prezioa,proiektore_modeloa,proiektore_irudia)>
+<!ELEMENT proiektore_prezioa (#PCDATA)>
+<!ELEMENT proiektore_modeloa (#PCDATA)>
+<!ELEMENT proiektore_irudia (#PCDATA)>
+
+<!ATTLIST proiektorea nunerosi CDATA #REQUIRED>
+<!ATTLIST proiektorea noizerosi CDATA #REQUIRED>
+<!ATTLIST proiektorea proiek_kodea ID #REQUIRED>
+<!ATTLIST proiektore_irudia path CDATA #REQUIRED>
+
+<!--Pantaila-->
+<!ELEMENT pantaila (pulgadak,pantaila_modeloa,pantaila_prezioa,irudia)>
+<!ELEMENT pulgadak (#PCDATA)>
+<!ELEMENT pantaila_modeloa (#PCDATA)>
+<!ELEMENT pantaila_prezioa (#PCDATA)>
+<!ELEMENT irudia (#PCDATA)>
+
+<!ATTLIST pantaila nunerosi CDATA #REQUIRED>
+<!ATTLIST pantaila noizerosi CDATA #REQUIRED>
+<!ATTLIST pantaila pclotura IDREF #IMPLIED>
+<!ATTLIST pantaila pant_kodea ID #REQUIRED>
+<!ATTLIST irudia path CDATA #REQUIRED>
+
+<!--Inprimagailua-->
+<!ELEMENT inprimagailua (inprimagailua_urtea,inprimagailua_modeloa,inprimagailua_prezioa,inprimagailua_irudia)>
+<!ELEMENT inprimagailua_urtea (#PCDATA)>
+<!ELEMENT inprimagailua_modeloa (#PCDATA)>
+<!ELEMENT inprimagailua_prezioa (#PCDATA)>
+<!ELEMENT inprimagailua_irudia (#PCDATA)>
+
+<!ATTLIST inprimagailua nunerosi CDATA #REQUIRED>
+<!ATTLIST inprimagailua noizerosi CDATA #REQUIRED>
+<!ATTLIST inprimagailua inpri_kodea ID #REQUIRED>
+<!ATTLIST inprimagailua_irudia path CDATA #REQUIRED>
+
+<!--Sare ekipamendua-->
+<!ELEMENT sareekipamendua (switch+,bideratzailea,ipkamera+)>
+
+<!--Switch-->
+<!ELEMENT switch (switch_modeloa,switch_portuak,switch_prezioa,switch_irudia)>
+<!ELEMENT switch_modeloa (#PCDATA)>
+<!ELEMENT switch_portuak (#PCDATA)>
+<!ELEMENT switch_prezioa (#PCDATA)>
+<!ELEMENT switch_irudia (#PCDATA)>
+
+<!ATTLIST switch nunerosi CDATA #REQUIRED>
+<!ATTLIST switch noizerosi CDATA #REQUIRED>
+<!ATTLIST switch switch_kodea ID #REQUIRED>
+<!ATTLIST switch_irudia path CDATA #REQUIRED>
+
+<!--Bideratzailea-->
+<!ELEMENT bideratzailea (bideratzailea_modeloa,bideratzailea_estandarra,bideratzailea_prezioa,bideratzailea_irudia)>
+<!ELEMENT bideratzailea_modeloa (#PCDATA)>
+<!ELEMENT bideratzailea_estandarra (#PCDATA)>
+<!ELEMENT bideratzailea_prezioa (#PCDATA)>
+<!ELEMENT bideratzailea_irudia (#PCDATA)>
+
+<!ATTLIST bideratzailea nunerosi CDATA #REQUIRED>
+<!ATTLIST bideratzailea noizerosi CDATA #REQUIRED>
+<!ATTLIST bideratzailea bidera_kodea ID #REQUIRED>
+<!ATTLIST bideratzailea_irudia path CDATA #REQUIRED>
+
+<!--IP kamera-->
+<!ELEMENT ipkamera (ipkamera_modeloa,ipkamera_prezioa,ipkamera_irudia)>
+<!ELEMENT ipkamera_modeloa (#PCDATA)>
+<!ELEMENT ipkamera_prezioa (#PCDATA)>
+<!ELEMENT ipkamera_irudia (#PCDATA)>
+
+<!ATTLIST ipkamera nunerosi CDATA #REQUIRED>
+<!ATTLIST ipkamera noizerosi CDATA #REQUIRED>
+<!ATTLIST ipkamera ipkam_kodea ID #REQUIRED>
+<!ATTLIST ipkamera_irudia path CDATA #REQUIRED>
